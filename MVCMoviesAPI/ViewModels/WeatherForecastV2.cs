@@ -1,7 +1,8 @@
-namespace MVCMoviesAPI
+namespace MVCMoviesAPI.ViewModels
 {
-    public class WeatherForecast
+    public class WeatherForecastV2
     {
+        public string? City { get; set; }
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }

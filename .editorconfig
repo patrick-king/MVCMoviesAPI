@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CA1045: Do not pass types by reference
+dotnet_diagnostic.CA1045.severity = error
